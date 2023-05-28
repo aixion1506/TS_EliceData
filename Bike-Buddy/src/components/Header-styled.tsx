@@ -30,3 +30,27 @@ export const LogoContainer = styled.div`
     color: green;
   }
 `;
+
+export const NavContainer = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+`;
+
+export const GotoAccount = styled.div`
+  display: flex;
+  justify-content: right;
+  a,
+  span {
+    font-size: 1rem;
+    margin-left: 20px;
+    transition: all 0.2s;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    &:hover {
+      border-bottom: 1px solid #000;
+    }
+  }
+`;

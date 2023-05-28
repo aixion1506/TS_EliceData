@@ -5,7 +5,7 @@ import {
   BannerContainer2,
   BannerContainer3,
   DescWrapper,
-} from './Main-styled';
+} from './Home-styled';
 
 // import { Link } from "react-router-dom";
 
